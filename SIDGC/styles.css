@@ -1,0 +1,267 @@
+body {
+	font-family: tahoma;
+	font-size: 13px;
+	font-style: dark;
+	background-image: url(imgs/backg.jpg);
+}
+
+.row {
+	width: 100%;
+}
+.column1 {
+	width: 17%;
+	background: grey;
+	float: left;
+	border: 2px dotted green;
+	height: 260px;
+}
+.midcol {
+	justify-content:center;
+	align-items:center;
+	width: 100%;
+	background: black;
+	align: center;
+	border: 2px dotted green;
+	height: 260px;
+}
+.column2 {
+	width: 67%;
+	background: grey;
+	float: right;
+	border: 2px dotted green;
+	height: 260px;
+}
+
+.column3 {
+	justify-content:center;
+	align-items:center;
+	width: 100%;
+	background: black;
+	align: center;
+	border: 2px dotted green;
+	height: 210px;
+	padding-top: 50px;
+}
+
+.headerlogo {
+	height: 80px;
+	width: 20%;
+	size: 10px;
+}
+
+.search {
+	background-color: #005959;
+  border: solid;
+	border-radius: 9px;
+	border-color: white;
+  color: white;
+  padding: 5px 10px;
+	width: 150px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.modify {
+	background-color: #f5c131;
+  border: solid;
+	border-radius: 9px;
+	border-color: white;
+  color: white;
+  padding: 5px 10px;
+	width: 150px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.delete {
+	background-color: #f72a2a;
+  border: solid;
+	border-radius: 9px;
+	border-color: white;
+  color: white;
+  padding: 5px 10px;
+	width: 150px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.buscador {
+	border-radius: 5px;
+	border-color: white;
+	background-color: #ffffff;
+	border-color: #000000;
+	width: 180px;
+	display: inline-block;
+	font-size: 15px;
+
+}
+
+.infocontratista {
+	width: 50%;
+	float: left;
+	border: 2px solid tile;
+	height: inherit;
+	overflow-y:auto;
+}
+
+h3 {
+	font-family: tahoma;
+	color: green;
+	font-size: 10px;
+}
+
+h6 {
+	font-family: tahoma;
+	color: black;
+	font-size: 8px;
+	align; center;
+	padding-left: 40%;
+}
+
+ul {
+	padding-top: 1px;
+	padding-left: 15px;
+	font-size: 5px;
+	font-weight: lighter;
+}
+
+li {
+	font-family: sans-serif;
+	font-size: 15px;
+	padding-bottom: 3px;
+	margin: 0px;
+}
+
+table {
+	border-collapse: collapse;
+	border-color: green;
+	border-radius: 1px;
+}
+
+tablaempresa tr, td {
+	width: 200px;
+	height: 5px;
+}
+
+tablacontratistas tr, td {
+	border-color: green;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+
+tr:hover {background-color: #91918e;}
+
+th {
+  background-color: #91918e;
+  color: black;
+	border-color: green;
+}
+
+#headerul {
+	border-radius: 3px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: grey;
+
+}
+
+#headerlist {
+	float: left;
+	border-right: 1px solid black;
+}
+
+#headerlist a{
+	border-radius: 2px;
+	display: block;
+  color: #c9c7bf;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+
+}
+
+#headerlist a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+#foot {
+	align-content: center;
+	border-radius: 3px;
+	margin: 25 5;
+	padding: 0;
+	overflow: hidden;
+	background-color: grey;
+}
+
+.expiredates {
+	margin: 25;
+	margin-left: 150px;
+	margin-right: 150px;
+	border: 1px solid #bc6060;
+	border-radius: 2px;
+	background-color: grey;
+	background: repeating-linear-gradient(
+  45deg,
+  #bc6060,
+  #bc6066 5px,
+  #984646 5px,
+  #984646 10px
+);
+}
+
+.headexpiredates {
+	border-radius: 3px;
+	border: 1px solid black;
+	padding: 5 1 5 35;
+	background: red url(imgs/alert2.png) no-repeat left;
+	font-size: 14px;
+	color: black;
+
+}
+
+.detailed {
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: #c90616;
+	margin: 5 250 5 250;
+	padding: 1 1 1 1;
+}
+
+.detailed2 {
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: #fbff14;
+	margin: 5 250 5 250;
+	padding: 1 1 1 1;
+}
+
+.detailed3 {
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: #fa6e23;
+	margin: 5 250 5 250;
+	padding: 1 1 1 1;
+}
+
+
+.error {
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: #fa3232;
+	margin: 5 875 5 5;
+	padding: 5 5 5 5;
+}
+
+.sucess {
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: #42f548;
+	margin: 5 875 5 5;
+	padding: 5 5 5 5;
+}
